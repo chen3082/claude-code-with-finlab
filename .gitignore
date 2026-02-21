@@ -1,0 +1,49 @@
+# Secrets
+.env
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# FinLab local data cache
+finlab_data/
+data/
+*.pkl
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# Backtest output
+output/
+reports/
+*.html
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
