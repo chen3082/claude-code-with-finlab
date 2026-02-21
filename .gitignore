@@ -3,8 +3,8 @@
 *.key
 *.pem
 
-# Private strategies (keep the folder structure but not the actual strategies)
-strategies/*.py
+# Virtual environment
+.venv/
 
 # Python
 __pycache__/

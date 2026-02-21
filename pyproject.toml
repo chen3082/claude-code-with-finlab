@@ -1,0 +1,10 @@
+[project]
+name = "project-pickaxe"
+version = "0.1.0"
+description = "台股造鏟者探勘系統 — Claude Code x FinLab quant workspace"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "finlab>=1.5.7",
+    "python-dotenv>=1.2.1",
+]
