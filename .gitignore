@@ -1,7 +1,10 @@
-# Secrets
+# Secrets & API Keys
 .env
 *.key
 *.pem
+
+# Private strategies (keep the folder structure but not the actual strategies)
+strategies/*.py
 
 # Python
 __pycache__/
